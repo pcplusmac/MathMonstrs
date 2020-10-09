@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B32396A2530A69500093A82 /* MasterViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3239692530A69500093A82 /* MasterViewControllerTableViewController.swift */; };
 		3BC36C482530870000AB923D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC36C472530870000AB923D /* AppDelegate.swift */; };
 		3BC36C4D2530870000AB923D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC36C4B2530870000AB923D /* Main.storyboard */; };
 		3BC36C4F2530870400AB923D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC36C4E2530870400AB923D /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B3239692530A69500093A82 /* MasterViewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewControllerTableViewController.swift; sourceTree = "<group>"; };
 		3BC36C442530870000AB923D /* MathMonstrs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathMonstrs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC36C472530870000AB923D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BC36C4C2530870000AB923D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				3BC36C472530870000AB923D /* AppDelegate.swift */,
 				3BC36C4B2530870000AB923D /* Main.storyboard */,
+				3B3239692530A69500093A82 /* MasterViewControllerTableViewController.swift */,
 				3BC36C4E2530870400AB923D /* Assets.xcassets */,
 				3BC36C502530870400AB923D /* LaunchScreen.storyboard */,
 				3BC36C532530870400AB923D /* Info.plist */,
@@ -132,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B32396A2530A69500093A82 /* MasterViewControllerTableViewController.swift in Sources */,
 				3BC36C482530870000AB923D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
