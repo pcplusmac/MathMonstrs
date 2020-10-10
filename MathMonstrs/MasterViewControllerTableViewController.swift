@@ -7,8 +7,14 @@
 //
 
 import UIKit
+protocol MonsterSelectionDelegate: class {
+    func monsterSelected(_ newMonster: Monster)
+}
 
 class MasterViewControllerTableViewController: UITableViewController {
+
+    
+    weak var delegate: MonsterSelectionDelegate?
 
     //the properties added from model -- Monster.swift
     let monsters = [
@@ -60,6 +66,14 @@ class MasterViewControllerTableViewController: UITableViewController {
 
             return cell
     }
+    
+    override func tableView(
+        _ tableView: UITableView,
+        didSelectRowAt indexPath: IndexPath) {
+        let selectedMonster = monsters[indexPath.row]
+        delegate?.monsterSelected(selectedMonster)
+    }
+
 
 
     /*
