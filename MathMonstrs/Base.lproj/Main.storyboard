@@ -17,21 +17,7 @@
                     <view key="view" contentMode="scaleToFill" id="ZWa-tM-Ret">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="hello, World!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KEv-Nm-JZS">
-                                <rect key="frame" x="156" y="388" width="96" height="22"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="KEv-Nm-JZS" firstAttribute="centerY" secondItem="qub-JH-OO0" secondAttribute="centerY" id="Cdu-du-hb4"/>
-                            <constraint firstItem="KEv-Nm-JZS" firstAttribute="centerX" secondItem="qub-JH-OO0" secondAttribute="centerX" id="Hxr-ed-Cuy"/>
-                            <constraint firstItem="KEv-Nm-JZS" firstAttribute="centerX" secondItem="qub-JH-OO0" secondAttribute="centerX" id="PRC-aL-Egz"/>
-                            <constraint firstItem="KEv-Nm-JZS" firstAttribute="centerY" secondItem="qub-JH-OO0" secondAttribute="centerY" id="hCO-3U-Nrt"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="qub-JH-OO0"/>
                     </view>
                 </viewController>
@@ -39,7 +25,7 @@
             </objects>
             <point key="canvasLocation" x="244.92753623188409" y="130.43478260869566"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Moster List-->
         <scene sceneID="vN5-4q-eI6">
             <objects>
                 <tableViewController clearsSelectionOnViewWillAppear="NO" id="CVO-zb-Uhv" customClass="MasterViewControllerTableViewController" customModule="MathMonstrs" customModuleProvider="target" sceneMemberID="viewController">
@@ -71,7 +57,7 @@
                             <outlet property="delegate" destination="CVO-zb-Uhv" id="z3x-Pb-pgc"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="Hyy-eR-a7o"/>
+                    <navigationItem key="navigationItem" title="Moster List" id="Hyy-eR-a7o"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fEX-tE-bOk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
