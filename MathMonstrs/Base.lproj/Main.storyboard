@@ -63,6 +63,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qub-JH-OO0"/>
                     </view>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="Hch-bt-TCh" id="Ev8-C8-dME"/>
+                        <outlet property="iconImageView" destination="DP8-ge-Pdx" id="ggl-PZ-Xki"/>
+                        <outlet property="nameLabel" destination="jqL-Wx-SZf" id="XvP-25-hvX"/>
+                        <outlet property="weaponImageView" destination="i5Y-4o-i14" id="7Fv-OS-Nmb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rFd-n6-UVF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -143,10 +149,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="dQI-yP-wA9"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KdR-JC-MkD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1220" y="130"/>
         </scene>
     </scenes>
 </document>
