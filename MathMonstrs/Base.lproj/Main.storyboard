@@ -74,7 +74,7 @@
             </objects>
             <point key="canvasLocation" x="244.92753623188409" y="130.43478260869566"/>
         </scene>
-        <!--Moster List-->
+        <!--Monster List-->
         <scene sceneID="vN5-4q-eI6">
             <objects>
                 <tableViewController clearsSelectionOnViewWillAppear="NO" id="CVO-zb-Uhv" customClass="MasterViewControllerTableViewController" customModule="MathMonstrs" customModuleProvider="target" sceneMemberID="viewController">
@@ -106,7 +106,7 @@
                             <outlet property="delegate" destination="CVO-zb-Uhv" id="z3x-Pb-pgc"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Moster List" id="Hyy-eR-a7o"/>
+                    <navigationItem key="navigationItem" title="Monster List" id="Hyy-eR-a7o"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fEX-tE-bOk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
