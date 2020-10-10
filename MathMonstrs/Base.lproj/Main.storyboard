@@ -10,20 +10,34 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="Nzg-bR-S0c">
             <objects>
-                <viewController id="mip-R2-B5j" sceneMemberID="viewController">
+                <viewController id="mip-R2-B5j" customClass="DetailViewController" customModule="MathMonstrs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZWa-tM-Ret">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="hello, World!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KEv-Nm-JZS">
+                                <rect key="frame" x="156" y="388" width="96" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="KEv-Nm-JZS" firstAttribute="centerY" secondItem="qub-JH-OO0" secondAttribute="centerY" id="Cdu-du-hb4"/>
+                            <constraint firstItem="KEv-Nm-JZS" firstAttribute="centerX" secondItem="qub-JH-OO0" secondAttribute="centerX" id="Hxr-ed-Cuy"/>
+                            <constraint firstItem="KEv-Nm-JZS" firstAttribute="centerX" secondItem="qub-JH-OO0" secondAttribute="centerX" id="PRC-aL-Egz"/>
+                            <constraint firstItem="KEv-Nm-JZS" firstAttribute="centerY" secondItem="qub-JH-OO0" secondAttribute="centerY" id="hCO-3U-Nrt"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="qub-JH-OO0"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rFd-n6-UVF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="246" y="131"/>
+            <point key="canvasLocation" x="244.92753623188409" y="130.43478260869566"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="vN5-4q-eI6">
@@ -34,15 +48,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="I1i-ed-tjL" style="IBUITableViewCellStyleDefault" id="2ns-Ie-Z9b">
-                                <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="I1i-ed-tjL" rowHeight="66" style="IBUITableViewCellStyleDefault" id="2ns-Ie-Z9b">
+                                <rect key="frame" x="0.0" y="28" width="414" height="66"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2ns-Ie-Z9b" id="FPI-z3-fDg">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="65.666666666666671"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="I1i-ed-tjL">
-                                            <rect key="frame" x="20" y="0.0" width="374" height="43.666666666666664"/>
+                                            <rect key="frame" x="20" y="0.0" width="374" height="65.666666666666671"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -61,7 +75,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fEX-tE-bOk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1255" y="-545"/>
+            <point key="canvasLocation" x="1253.6231884057972" y="-545.38043478260875"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="d3W-bV-cl2">

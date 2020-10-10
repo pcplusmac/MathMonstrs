@@ -13,6 +13,7 @@
 		3BC36C4F2530870400AB923D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC36C4E2530870400AB923D /* Assets.xcassets */; };
 		3BC36C522530870400AB923D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC36C502530870400AB923D /* LaunchScreen.storyboard */; };
 		3BE29012253131A900568981 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE29011253131A900568981 /* DetailViewController.swift */; };
+		3BE290142531484300568981 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE290132531484300568981 /* Monster.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3BC36C512530870400AB923D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BC36C532530870400AB923D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BE29011253131A900568981 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3BE290132531484300568981 /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				3BC36C472530870000AB923D /* AppDelegate.swift */,
 				3BC36C4B2530870000AB923D /* Main.storyboard */,
+				3BE290132531484300568981 /* Monster.swift */,
 				3BE29011253131A900568981 /* DetailViewController.swift */,
 				3B3239692530A69500093A82 /* MasterViewControllerTableViewController.swift */,
 				3BC36C4E2530870400AB923D /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BE290142531484300568981 /* Monster.swift in Sources */,
 				3BE29012253131A900568981 /* DetailViewController.swift in Sources */,
 				3B32396A2530A69500093A82 /* MasterViewControllerTableViewController.swift in Sources */,
 				3BC36C482530870000AB923D /* AppDelegate.swift in Sources */,
